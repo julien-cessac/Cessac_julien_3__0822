@@ -48,7 +48,7 @@
                     width: 1%;
                     background-color: $tertiary-c;
                     position: relative;
-                    left: 100px;
+                    left: 500px;
                     & i{
                         color: $background-primary;
                         transition: transform 800ms ease-in-out;
@@ -79,16 +79,21 @@
                     width: 25%;
                     position: relative;
                     left: 0px;
-                    transition: 600ms;
+                    transition: 300ms ease-in-out;
                 }
                 &:hover .menu__list__item__info{
                     width: 53%;
+                    transition: 600ms;
+                }
+                &:not(:hover) .menu__list__item__info{
+                    width: 80%;
+                    transition: 600ms;
                 }
                 &:not(:hover) .menu__list__item__check{
                     width: 1%;
                     position: relative;
-                    left: 100px;
-                    transition: 600ms;
+                    left: 500px;
+                    transition: 600ms ease-in-out;
                 }
                 &:hover .menu__list__item__check i{
                     transform: rotate(360deg);

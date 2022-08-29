@@ -72,8 +72,8 @@
         &__newitem{
             float: right;
             position: relative;
-            bottom: 195px;
-            left: 65px;
+            bottom: 175px;
+            right: 20px;
             background-color: $tertiary-c;
             border-radius: 3px;
             padding: 7px 14px;
@@ -82,4 +82,16 @@
         h3{
             white-space: nowrap;
         }
+}
+
+@media all and (min-width: 684px){
+    
+    .home-fonction__btn{
+            margin: 30px auto 0px auto;
+    }
+
+    .home-resto__card{
+        margin: 30px auto 0px auto;
+    }
+
 }

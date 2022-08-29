@@ -28,40 +28,43 @@
     float: right;
     margin: 0% 0%;
     font-size: 24px;
-    position: relative;
-    left: 35px;
-        & span i{
-            position: relative;
-            right: 31px;
+        & .fa-solid{
             opacity: 0;
             background: linear-gradient(to top right, $secondary-c 0%, $primary-c 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            transition: 300ms;
                 &:hover{
-                    font-size: 25px;
                     opacity: 1;
                 }
+        }
+        & .fa-stack{
+            height: 0em;
+            line-height: 1em;
+            width: 1em;
+            left: 60px;
         }
 }
 
-.favorit-btn--menu{
-    border: none;
-    background-color: transparent;
-    float: right;
-    margin: 0% 0%;
-    font-size: 24px;
-        & span i{
-            position: relative;
-            left: 32px;
-            opacity: 0;
-            background: linear-gradient(to top right, $secondary-c 0%, $primary-c 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-                &:hover{
-                    font-size: 25px;
-                    opacity: 1;
-                }
-        }
-}
+// .favorit-btn--menu{
+//     border: none;
+//     background-color: transparent;
+//     float: right;
+//     margin: 0% 0%;
+//     font-size: 24px;
+//         & span i{
+//             position: relative;
+//             left: 32px;
+//             opacity: 0;
+//             background: linear-gradient(to top right, $secondary-c 0%, $primary-c 100%);
+//             -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//             background-clip: text;
+//             transition: 300ms;
+//                 &:hover{
+//                     opacity: 1;
+//                     transform: scale(1.1);
+//                 }
+//         }
+// }
