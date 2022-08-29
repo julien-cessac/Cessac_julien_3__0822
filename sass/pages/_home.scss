@@ -1,0 +1,85 @@
+#home-explore{
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+    background-color: $background-secondary;
+        p{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+}
+
+#home-fonction{
+    padding: 60px 0px;
+}
+
+.home-fonction__btn{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    background-color: $background-secondary;
+    border-radius: 25px;
+    @include box-shadow;
+    height: 75px;
+    margin: 30px 20px 0px 20px;
+    font-weight: bold;
+        &:hover{
+            background-color: lighten($color: $primary-c, $amount: 35);;
+        }
+        &:hover i{
+            color: $primary-c;
+        }
+        &__circle{
+            background-color: $primary-c;
+            width: 20px;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: $background-primary;
+            position: relative;
+            right: 10px;
+            margin-right: 3%;
+        }
+        & i{
+            margin-right: 5%;
+            color: darken($color: $background-secondary, $amount: 50);
+        }
+}
+
+#home-resto{
+    background-color: $background-secondary;
+    padding: 60px 0px;
+}
+
+.home-resto__card{
+    margin: 30px 20px 0px 20px;
+    width: 90%;
+    border-radius: 20px;
+    @include box-shadow;
+    overflow: hidden;
+        &__img{
+            height: 200px;
+                & img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+        }
+        &__info{
+            background-color: $background-primary;
+            padding: 20px 20px;
+        }
+        &__newitem{
+            float: right;
+            position: relative;
+            bottom: 195px;
+            left: 65px;
+            background-color: $tertiary-c;
+            border-radius: 3px;
+            padding: 7px 14px;
+            color: darken($color: $tertiary-c, $amount: 50);
+        }
+        h3{
+            white-space: nowrap;
+        }
+}

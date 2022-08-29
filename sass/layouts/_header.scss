@@ -1,0 +1,25 @@
+#logo {
+    @include head-shadow;
+    position: relative;
+    z-index: 1;
+        img{
+        display: block;
+        margin: auto;
+        padding: 30px 0px 15px 0px;
+        }
+        &--menu {
+            z-index: 2;
+            display: flex;
+                & a{
+                    font-size: 30px;
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                }
+                & img{
+                    display: block;
+                    margin: auto;
+                    padding: 30px 0px 15px 0px;
+                }
+        }
+}

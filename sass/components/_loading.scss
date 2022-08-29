@@ -1,0 +1,32 @@
+
+.loader__bg{
+    background-color: $background-secondary;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    opacity: 0;
+    animation: fadeout 1s cubic-bezier(1,0,0.8,0);
+    animation-fill-mode: forwards;
+        &__loading {
+            margin: auto;
+            border: 20px solid $background-primary;
+            border-radius: 50%;
+            border-top: 20px solid $tertiary-c;
+            width: 100px;
+            height: 100px;
+            animation: spinner 1s linear;
+        }
+}
+  
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+@keyframes fadeout {
+    0% { opacity: 1;  }
+    100%   { opacity: 0;
+            z-index: -1;}
+}

@@ -1,0 +1,13 @@
+#home-location{
+    text-align: center;
+    background-color: darken($color: $background-secondary, $amount: 5);
+    font-size: 20px;
+        &__location{
+            background-color: darken($color: $background-secondary, $amount: 5);
+            border: none;
+            margin: 30px 0px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 155px;
+        }
+}
