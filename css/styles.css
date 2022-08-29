@@ -117,14 +117,16 @@ h6 {
   box-shadow: 0px 7px 7px rgb(196, 196, 196);
 }
 
-.favorit-btn {
+.favorit-btn, .favorit-btn--menu {
   border: none;
   background-color: transparent;
   float: right;
   margin: 0% 0%;
   font-size: 24px;
+  left: 85px;
+  bottom: 35px;
 }
-.favorit-btn .fa-solid {
+.favorit-btn .fa-solid, .favorit-btn--menu .fa-solid {
   opacity: 0;
   background: linear-gradient(to top right, #FF79DA 0%, #9356DC 100%);
   -webkit-background-clip: text;
@@ -132,14 +134,13 @@ h6 {
   background-clip: text;
   transition: 300ms;
 }
-.favorit-btn .fa-solid:hover {
+.favorit-btn .fa-solid:hover, .favorit-btn--menu .fa-solid:hover {
   opacity: 1;
 }
-.favorit-btn .fa-stack {
-  height: 0em;
-  line-height: 1em;
-  width: 1em;
-  left: 60px;
+
+.favorit-btn--menu {
+  left: 0px;
+  bottom: 27px;
 }
 
 #logo {
