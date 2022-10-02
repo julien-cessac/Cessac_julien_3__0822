@@ -14,10 +14,12 @@
     margin-top: 50px;
     font-weight: bold;
     color: $background-primary;
+    opacity: 1;
     @include box-shadow;
         &:hover {
             background-color: $secondary-c;
             box-shadow: 0px 7px 7px rgb(196, 196, 196);
+            opacity: 0.7;
         }
 }
 

@@ -110,11 +110,13 @@ h6 {
   margin-top: 50px;
   font-weight: bold;
   color: #ffffff;
+  opacity: 1;
   box-shadow: 0px 5px 5px rgb(224, 224, 224);
 }
 .btn-1:hover {
   background-color: #FF79DA;
   box-shadow: 0px 7px 7px rgb(196, 196, 196);
+  opacity: 0.7;
 }
 
 .favorit-btn, .favorit-btn--menu {
