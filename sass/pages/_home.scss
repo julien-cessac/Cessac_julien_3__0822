@@ -15,6 +15,7 @@
 .home-fonction__btn{
     display: flex;
     width: 90%;
+    max-width: 800px;
     align-items: center;
     background-color: $background-secondary;
     border-radius: 25px;
@@ -54,6 +55,7 @@
 .home-resto__card{
     margin: 30px 20px 0px 20px;
     width: 90%;
+    max-width: 800px;
     border-radius: 20px;
     @include box-shadow;
     overflow: hidden;
@@ -84,7 +86,7 @@
         }
 }
 
-@media all and (min-width: 684px){
+@media all and (min-width: 768px){
     
     .home-fonction__btn{
             margin: 30px auto 0px auto;
@@ -93,5 +95,4 @@
     .home-resto__card{
         margin: 30px auto 0px auto;
     }
-
 }

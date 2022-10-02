@@ -227,6 +227,7 @@ footer span i {
 .home-fonction__btn {
   display: flex;
   width: 90%;
+  max-width: 800px;
   align-items: center;
   background-color: #f6f6f6;
   border-radius: 25px;
@@ -266,6 +267,7 @@ footer span i {
 .home-resto__card {
   margin: 30px 20px 0px 20px;
   width: 90%;
+  max-width: 800px;
   border-radius: 20px;
   box-shadow: 0px 5px 5px rgb(224, 224, 224);
   overflow: hidden;
@@ -296,7 +298,7 @@ footer span i {
   white-space: nowrap;
 }
 
-@media all and (min-width: 684px) {
+@media all and (min-width: 768px) {
   .home-fonction__btn {
     margin: 30px auto 0px auto;
   }
