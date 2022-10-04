@@ -42,32 +42,16 @@
                     opacity: 1;
                 }
         }
-        
+        &--old{
+            left: 18px;
+        }
 }
+
 
 .favorit-btn--menu{
         left: 0px;
         bottom: 27px;
 }
 
-// .favorit-btn--menu{
-//     border: none;
-//     background-color: transparent;
-//     float: right;
-//     margin: 0% 0%;
-//     font-size: 24px;
-//     left: 0px;
-//     bottom: 27px;
-//         & .fa-solid{
-//             opacity: 0;
-//             background: linear-gradient(to top right, $secondary-c 0%, $primary-c 100%);
-//             -webkit-background-clip: text;
-//             -webkit-text-fill-color: transparent;
-//             background-clip: text;
-//             transition: 300ms;
-//                 &:hover{
-//                     opacity: 1;
-//                 }
-//         }
-// }
+
 

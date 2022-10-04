@@ -139,6 +139,9 @@ h6 {
 .favorit-btn .fa-solid:hover, .favorit-btn--menu .fa-solid:hover {
   opacity: 1;
 }
+.favorit-btn--old, .favorit-btn--menu--old {
+  left: 18px;
+}
 
 .favorit-btn--menu {
   left: 0px;
